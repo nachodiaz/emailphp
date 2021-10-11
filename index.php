@@ -9,10 +9,10 @@
 </head>
 <body>
     <h1>Formulario de Correo con PHP</h1>
-    <form action="" method="post">
-        <input type="text" placeholder="nombre" name="name" id="" required>
-        <input type="email" placeholder="email" name="email" id="" required>
-        <input type="text" placeholder="asunto" name="asunto" id="" required>
+    <form method="post">
+        <input type="text"   placeholder="nombre" name="nombre" id="" required>
+        <input type="email"  placeholder="email"  name="email"  id="" required>
+        <input type="text"   placeholder="asunto" name="asunto" id="" required>
         <textarea name="msg" placeholder="mensaje" id="" cols="30" rows="10"></textarea>
         <input type="submit" value="enviar">
     </form>
