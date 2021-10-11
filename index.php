@@ -13,11 +13,11 @@
         <input type="text"   placeholder="nombre" name="name" id="" required>
         <input type="email"  placeholder="email"  name="email"  id="" required>
         <input type="text"   placeholder="asunto" name="asunto" id="" required>
-        <textarea name="msg" placeholder="mensaje" id="" cols="30" rows="10"></textarea>
+        <textarea placeholder="mensaje" id=""     name="msg"  cols="30" rows="10"></textarea>
         <input type="submit" value="enviar">
     </form>
     <?php 
-        include("correo.php");
+        include("./correo.php");
     ?>
 </body>
 </html>
