@@ -9,7 +9,7 @@
             $header = "From: noreply@example.com" . "\r\n";
             $header .= "Reply-To: noreply@example.com " . "\r\n";
             $header .= "X-Mailer: PHP/" . phpversion(); 
-            $mail =  mail($email,$asunto,$msg,$header);
+            $mail =  mail($name, $email,$asunto,$msg,$header);
             if($mail){
                 echo "<h2>¡Mail enviado de forma exitosa!<h2>";
             }

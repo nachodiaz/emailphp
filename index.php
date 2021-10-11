@@ -17,7 +17,7 @@
         <input type="submit" value="enviar">
     </form>
     <?php 
-        include("./correo.php");
+        include("correo.php");
     ?>
 </body>
 </html>
