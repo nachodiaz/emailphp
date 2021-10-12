@@ -86,3 +86,7 @@ textarea{
     width: 660px;
 }
 
+.titulo{
+    text-align: center;
+    font-size:40px;
+}
