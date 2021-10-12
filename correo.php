@@ -8,6 +8,5 @@
     $contenido = "Nombre:" . $nombre . "\nCorreo: " . $correo . "\nAsunto: " . $asunto . "\nMensaje" . $msg ;
     mail($destino, "Contacto ", $contenido);
 
-    header("Location:gracias.html");
 
  ?>
